@@ -30,9 +30,8 @@ export default function CourseItem({ item, completedChapter }) {
           </View>
         </View>
       </View>
-      {/* {completedChapter!= undefined? <CourseProgressBar totalChapter = {item.chapters?.length} completedChapter={completedChapter} /> : null } */}
-      <CourseProgressBar totalChapter = {item?.chapters?.length} completedChapter={completedChapter} />
-      
+      {completedChapter != undefined? <CourseProgressBar totalChapter = {item?.chapters?.length} completedChapter={completedChapter} /> : null }
+
     </View>
   )
 }

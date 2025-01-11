@@ -10,7 +10,6 @@ export default function CourseProgressBar({totalChapter, completedChapter}) {
       <Text>Hi</Text>
     <View style={{width:'100%', height:5, backgroundColor:Colors.GRAY, borderRadius:99}}>
       <View style={{width:width, height:5, backgroundColor:Colors.PRIMARY, borderRadius:99}}>
-      
       </View>
     </View>
     </View>

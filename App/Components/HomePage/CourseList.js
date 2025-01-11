@@ -17,14 +17,13 @@ export default function CourseList({ courseLevel }) {
 
   const getCourses = () => {
     getCourseList(courseLevel).then(response => {
-      console.log("Response", response);
       setCourseList(response?.courses)
     })
   }
 
   return (
     <View>
-      <SubHeading text={courseLevel.charAt(0).toUpperCase() + courseLevel.slice(1) + ' Courses'} color={courseLevel == 'Beginner' && Colors.WHITE} />
+      <SubHeading text={courseLevel.charAt(0).toUpperCase() + courseLevel.slice(1) + ' Courses'} />
       <FlatList
         data={courseList}
         key={courseList.id}

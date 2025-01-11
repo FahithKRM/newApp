@@ -22,7 +22,7 @@ export default function TabNavigation() {
                     <Ionicons name="home" size={size} color={color} />
                 )
             }} />
-            <Tab.Screen name='My Course' component={MyCourse} options={{
+            <Tab.Screen name='MyCourse' component={MyCourse} options={{
                 tabBarIcon: ({ color, size }) => (
                     <Ionicons name="book-outline" size={size} color={color} />)
             }} />

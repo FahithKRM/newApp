@@ -1,0 +1,5 @@
+get data from api :
+	npm add graphql-request graphql
+
+Chapter content page :
+	npm i react-native-render-html

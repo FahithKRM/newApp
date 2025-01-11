@@ -28,18 +28,12 @@ export default function ProfileScreen ({ navigation }) {
     },
     {
       id: 4,
-      title: 'Themes',
-      icon: 'color-palette-outline',
-      onPress: () => navigation.navigate('Themes'),
-    },
-    {
-      id: 5,
       title: 'Notifications',
       icon: 'notifications-outline',
       onPress: () => navigation.navigate('Notifications'),
     },
     {
-      id: 6,
+      id: 5,
       title: 'Logout',
       icon: 'log-out-outline',
       onPress: () => handleLogout(),

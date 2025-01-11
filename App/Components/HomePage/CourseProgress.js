@@ -24,7 +24,7 @@ export default function CourseProgress() {
   }
   return (
     <View>
-      <SubHeading text={'In Progress'} color={Colors.WHITE} />
+      {/* <SubHeading text={'In Progress'} color={Colors.WHITE} /> */}
       <FlatList
         data={progressCourseList}
         horizontal={true}
